@@ -5,6 +5,7 @@
   min-width: 180px;
   /* 100vh相当于100% */
   height: calc(100vh);
+  background-color: #001529;
 }
 .container .main {
   flex: 1;
