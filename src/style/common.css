@@ -1,6 +1,5 @@
-.container {
-  display: flex;
-}
+/** 常用色值 **/
+/** 常用字体大小 **/
 .container .nav-left {
   min-width: 180px;
   /* 100vh相当于100% */
@@ -8,10 +7,10 @@
   background-color: #001529;
 }
 .container .main {
-  flex: 1;
   height: calc(100vh);
+  background-color: #f1f3f5;
 }
-.container .container {
+.container .content {
   position: relative;
   padding: 20px;
 }

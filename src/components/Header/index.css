@@ -1,3 +1,8 @@
+/** 常用色值 **/
+/** 常用字体大小 **/
+.header {
+  background-color: #fff;
+}
 .header .header-top {
   height: 60px;
   line-height: 60px;
@@ -15,6 +20,17 @@
 }
 .header .breadcrumb .breadcrumb-title {
   text-align: center;
+  font-size: 18px;
+  /* 实现小箭头 */
+}
+.header .breadcrumb .breadcrumb-title:after {
+  position: absolute;
+  content: '';
+  left: 110px;
+  top: 39px;
+  border-top: 9px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
 }
 .header .breadcrumb .weather {
   text-align: right;
